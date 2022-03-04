@@ -1,0 +1,49 @@
+Commands Used in This Video to install MetaSploit in TermuX. :~ 
+
+1. apt update -y
+
+2. apt upgrade -y
+
+
+3. pkg install python -y
+
+4. pkg install python2 -y
+
+
+5. pip install lolcat
+
+
+
+6. pkg install ruby -y
+
+7. gem install bundler
+
+8. pkg install php -y
+
+9. pkg install wget
+
+
+10. wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh
+
+
+11. chmod +x metasploit.sh
+
+
+12. ./metasploit.sh
+
+Now Wait , it Will Take Atleast 15 - 20 Minutes Depending Upon your Internet Connection and Mobile Processor 
+
+After installation complete :-
+
+To   Start postgresql Database run :-
+
+13.     ./postgresql_ctl.sh start
+
+
+
+And to start MSF Console , run
+
+14.     msfconsole
+
+
+.. Thank You ...
